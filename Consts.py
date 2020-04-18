@@ -1,0 +1,12 @@
+Up = 1
+Down = 2
+Left = 3
+Right = 4
+NORMAL = 0
+WIN = 1
+LOSE = 2
+BackgroundIndex = 0
+TurtleIndex = 1
+MushroomIndex = 2
+ObstacleIndex = 3
+MoleIndex = 4
