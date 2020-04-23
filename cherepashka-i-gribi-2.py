@@ -67,7 +67,7 @@ def ShowError(ErrorText, vidget = None):
 
 
 def OptionsOk(optionswindow, Y, X ,M, O, SM, SMV, GM):
-    global sizeY, sizeX, defMushroomCount, defObstacleCount, defMoleCount, SlowMoles, GameMode
+    global options, GameMode
     cordY = 0
     cordX = 1
     obst = 2
@@ -105,7 +105,7 @@ def OptionsOk(optionswindow, Y, X ,M, O, SM, SMV, GM):
     if IntValues[mush] < 1:
         ShowError("Количество грибов должно быть больше 0 ", M)
         return
-    SlowMoles = SMV.get()
+    options.SlowMoles = SMV.get()
     options.sizeY = IntValues[cordY]
     options.sizeX = IntValues[cordX]
     options.ObstacleCount = IntValues[obst]
