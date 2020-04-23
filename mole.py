@@ -12,3 +12,4 @@ class Mole(Zver):
             Zver.move(self, direction)
         else:
             print(self.name + " стоит на месте")
+            self.step = self.step + 1
